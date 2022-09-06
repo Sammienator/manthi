@@ -21,7 +21,7 @@ function BasicExample() {
             />
            
           </Navbar.Brand>
-          <NavbarBrand> KIMANTHI APP </NavbarBrand>
+          <NavbarBrand> <h1>Kimanthi Stories.... </h1> </NavbarBrand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='p-2'>
