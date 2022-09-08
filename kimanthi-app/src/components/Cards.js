@@ -1,18 +1,20 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Container from 'react-bootstrap/esm/Container';
+import pic6 from '../assets/pic6.jpg';
+import pic5 from '../assets/pic5.jpg';
+import pic4 from '../assets/pic4.jpg';
 
 function Car () {
   return (
     <Container> 
                 <CardGroup>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={pic6} />
                     <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Isinya Fun Ride</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in
-                        to additional content. This content is a little bit longer.
+                        Take a deep dive into our random bike run to Isinya.Tough, but fun none-theless!Take a deep dive into our random bike run to Isinya.Tough, but fun none-theless!Take a deep dive into our random bike run to Isinya.Tough, but fun none-theless!
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -20,12 +22,11 @@ function Car () {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={pic4} />
                     <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Machakos Makutano Ride</Card.Title>
                     <Card.Text>
-                        This card has supporting text below as a natural lead-in to
-                        additional content.{' '}
+                       Journey With us as we explore neighbouring Machakos County. Long distance runners we are!
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -33,13 +34,11 @@ function Car () {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={pic5} />
                     <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>Rongai Visa Travels</Card.Title>
                     <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in
-                        to additional content. This card has even longer content than the
-                        first to show that equal height action.
+                      Cycling to Rongai is no easy task,However, we are always ready always steady!Cycling to Rongai is no easy task,However, we are always ready always steady!Cycling to Rongai is no easy task,However, we are always ready always steady
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div>
        
-       <footer>
+       <footer className='m-3'>
 
             <div className="copyright">
                 
@@ -22,12 +22,12 @@ const Footer = () => {
             </div>
                     
             </Col>
-            <Col xs={6}>
-            <ul>
-            <li> <i className="fab fa-facebook-f">Facebook</i></li>
-            <li>  <i className="fab fa-github"></i>github</li>
-            <li>  <i className="fab fa-github"></i>Twitter</li>
-            <li>  <i className="fab fa-github"></i>Instagram</li>
+            <Col xs={6} className="flex">
+            <ul >
+            <p> <i className="fab fa-facebook-f">Facebook</i></p>
+            <p>  <i className="fab fa-github"></i>github</p>
+            <p>  <i className="fab fa-github"></i>Twitter</p>
+            <p>  <i className="fab fa-github"></i>Instagram</p>
             </ul>
                     
             </Col>
