@@ -29,4 +29,18 @@ h2{
   text-align: center;
 
 
+}.icons ul{
+ 
+ 
+}
+
+.icons p{
+
+  float: right;
+  font-size: 40px;
+  text-align: center;
+ 
+  margin-right: 50px;
+ 
+    
 }

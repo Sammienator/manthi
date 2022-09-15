@@ -2,6 +2,12 @@ import React from 'react'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
+
+
+
+
+
 const Footer = () => {
   return (
     <div>
@@ -22,12 +28,15 @@ const Footer = () => {
             </div>
                     
             </Col>
-            <Col xs={6} className="flex">
-            <ul >
-            <p> <i className="fab fa-facebook-f">Facebook</i></p>
-            <p>  <i className="fab fa-github"></i>github</p>
-            <p>  <i className="fab fa-github"></i>Twitter</p>
-            <p>  <i className="fab fa-github"></i>Instagram</p>
+            <Col xs={6} className="flex" id='icons' >
+            <ul className='icons' >
+            <p> <i class="fab fa-facebook"></i>  </p>
+            <p>  <i class="fab fa-github"></i></p>
+            <p>  <i class="fab fa-twitter"></i></p>
+            <p>  <i class="fab fa-instagram"></i></p>
+          
+            
+            
             </ul>
                     
             </Col>

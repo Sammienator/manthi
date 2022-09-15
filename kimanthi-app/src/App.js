@@ -7,6 +7,7 @@ import Cont2 from './components/Content2';
 import Footer from './components/Footer';
 import Car from './components/Cards';
 
+
 function App() {
   return (
     <div className="App">
