@@ -16,6 +16,7 @@ function Cont() {
   
 
       {/* Columns are always 50% wide, on mobile and desktop */}
+      <Container> 
       <Row>
         <Col xs={6}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat nisl pretium fusce id velit ut tortor pretium. Risus quis varius quam quisque id diam vel. Vitae tortor condimentum lacinia quis. Ullamcorper eget nulla facilisi etiam. Cras sed felis eget velit aliquet sagittis. Consequat nisl vel pretium lectus quam id. 
@@ -25,6 +26,8 @@ function Cont() {
         </Col>
 
       </Row>
+        </Container>
+      
       
     </Container>
   );
