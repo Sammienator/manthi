@@ -4,11 +4,11 @@ import Col from 'react-bootstrap/Col';
 
 function Cont() {
   return (
-    <Container className='m-3'>
+    <Container >
       {/* Stack the columns on mobile by making one full-width  */}
       <Row>
         <Col xs={12}  >
-         <h1 className='heading'> Lorem ipsum dolor sit aliqua. </h1>
+         <h1 className='heading'> Lorem ipsum dolor sit aliqua. And other changes.</h1>
         </Col>
         
       </Row>
